@@ -18,8 +18,8 @@
     "url": "https://github.com/FullstackAcademy/UNIV.PairExercise.ContactList/issues"
   },
   "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1"
   },
   "browserslist": {
