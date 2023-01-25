@@ -1,6 +1,5 @@
-.idea
-.vscode
+node_modules
 .DS_Store
-node_modules/
-.env
-build/
+dist
+dist-ssr
+*.local
