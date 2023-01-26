@@ -1,8 +1,20 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import { Main } from "./components";
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-const container = document.getElementById("app");
-const root = ReactDOM.createRoot(container);
+const Main = () => {
+  return (
+    <div id="main">
+      <div id="navbar">
+        <div>Contact List</div>
+      </div>
+      <div id="container">
+        {/* your components here */}
+      </div>
+    </div>
+  );
+}
 
-root.render(<Main />);
+ReactDOM.render(
+  <Main />,
+  document.getElementById('app')
+);
